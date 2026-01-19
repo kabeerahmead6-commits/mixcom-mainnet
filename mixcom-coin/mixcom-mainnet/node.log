@@ -1,0 +1,50 @@
+nohup: ignoring input
+INFO [01-18|13:06:16.371] Maximum peer count                       ETH=50 total=50
+INFO [01-18|13:06:16.374] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+WARN [01-18|13:06:16.374] Option --allow-insecure-unlock is deprecated and has no effect
+INFO [01-18|13:06:16.378] Set global gas cap                       cap=50,000,000
+INFO [01-18|13:06:16.380] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [01-18|13:06:16.380] Using pebble as the backing database
+INFO [01-18|13:06:16.380] Allocated cache and file handles         database=/home/kabeerahmead6/mixcom-coin/mixcom-mainnet/data/geth/chaindata cache=512.00MiB handles=524,288
+INFO [01-18|13:06:16.394] Initializing the KZG library             backend=gokzg
+INFO [01-18|13:06:16.433] Opened ancient database                  database=/home/kabeerahmead6/mixcom-coin/mixcom-mainnet/data/geth/chaindata/ancient/chain readonly=false
+INFO [01-18|13:06:16.433] Opened Era store                         datadir=/home/kabeerahmead6/mixcom-coin/mixcom-mainnet/data/geth/chaindata/ancient/chain/era
+INFO [01-18|13:06:16.433] State scheme set to already existing     scheme=path
+INFO [01-18|13:06:16.434] Initialising Ethereum protocol           network=8899 dbversion=<nil>
+INFO [01-18|13:06:16.506] Load database journal from disk
+INFO [01-18|13:06:16.506] Failed to load journal, discard it       err="journal not found"
+INFO [01-18|13:06:16.508] Opened ancient database                  database=/home/kabeerahmead6/mixcom-coin/mixcom-mainnet/data/geth/chaindata/ancient/state readonly=false
+INFO [01-18|13:06:16.508] Initialized path database                triecache=154.00MiB statecache=102.00MiB buffer=256.00MiB state-history="last 90000 blocks" journal-dir=/home/kabeerahmead6/mixcom-coin/mixcom-mainnet/data/geth/triedb
+INFO [01-18|13:06:16.508] 
+INFO [01-18|13:06:16.508] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [01-18|13:06:16.508] Chain ID:  8899 (unknown)
+INFO [01-18|13:06:16.508] Consensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work)
+INFO [01-18|13:06:16.508] 
+INFO [01-18|13:06:16.508] Pre-Merge hard forks (block based):
+INFO [01-18|13:06:16.508]  - Homestead:                   #0       
+INFO [01-18|13:06:16.508]  - Tangerine Whistle (EIP 150): #0       
+INFO [01-18|13:06:16.508]  - Spurious Dragon/1 (EIP 155): #0       
+INFO [01-18|13:06:16.508]  - Spurious Dragon/2 (EIP 158): #0       
+INFO [01-18|13:06:16.508]  - Byzantium:                   #0       
+INFO [01-18|13:06:16.508]  - Constantinople:              #0       
+INFO [01-18|13:06:16.508]  - Petersburg:                  #0       
+INFO [01-18|13:06:16.508]  - Istanbul:                    #0       
+INFO [01-18|13:06:16.508]  - Berlin:                      #0       
+INFO [01-18|13:06:16.508]  - London:                      #0       
+INFO [01-18|13:06:16.508] 
+INFO [01-18|13:06:16.508] Merge configured:
+INFO [01-18|13:06:16.508]  - Total terminal difficulty:  0
+INFO [01-18|13:06:16.508] 
+INFO [01-18|13:06:16.508] Post-Merge hard forks (timestamp based):
+INFO [01-18|13:06:16.508] 
+INFO [01-18|13:06:16.508] All fork specifications can be found at https://ethereum.github.io/execution-specs/src/ethereum/forks/
+INFO [01-18|13:06:16.508] 
+INFO [01-18|13:06:16.508] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [01-18|13:06:16.508] 
+INFO [01-18|13:06:16.508] Loaded most recent local block           number=0 hash=1a3d60..f7e316 age=56y10mo1w
+INFO [01-18|13:06:16.509] Initialized transaction indexer          range="last 2350000 blocks"
+INFO [01-18|13:06:16.779] Enabled snap sync                        head=0 hash=1a3d60..f7e316
+INFO [01-18|13:06:16.779] Gasprice oracle is ignoring threshold set threshold=2
+INFO [01-18|13:06:16.780] Registered sync override service
+INFO [01-18|13:06:16.780] Starting peer-to-peer node               instance=Geth/v1.16.8-stable-abeb78c6/linux-amd64/go1.25.1
+Fatal: Error starting protocol stack: listen tcp :30303: bind: address already in use

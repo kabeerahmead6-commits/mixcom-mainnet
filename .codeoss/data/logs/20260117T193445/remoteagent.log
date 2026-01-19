@@ -1,0 +1,18 @@
+2026-01-17 19:34:45.960 [info] 
+
+
+
+
+2026-01-17 19:34:45.980 [info] Extension host agent started.
+2026-01-17 19:34:46.011 [info] Started initializing default profile extensions in extensions installation folder. file:///home/kabeerahmead6/.codeoss/extensions
+2026-01-17 19:34:46.029 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/kabeerahmead6/.codeoss/extensions
+2026-01-17 19:35:20.534 [error] [127.0.0.1][b2d32478] Unauthorized client refused: auth mismatch.
+2026-01-17 19:35:20.537 [error] [127.0.0.1][3a8cedb5] Unauthorized client refused: auth mismatch.
+2026-01-17 19:35:21.412 [error] [127.0.0.1][e26cf6fc] Unauthorized client refused: auth mismatch.
+2026-01-17 19:35:22.312 [error] [127.0.0.1][09857d60] Unauthorized client refused: auth mismatch.
+2026-01-17 19:35:23.648 [error] [127.0.0.1][56e819a5] Unauthorized client refused: auth mismatch.
+2026-01-17 19:35:25.196 [error] [127.0.0.1][6ac0e158] Unauthorized client refused: auth mismatch.
+2026-01-17 19:35:25.574 [error] [127.0.0.1][6b545c77] Unauthorized client refused: auth mismatch.
+2026-01-17 19:35:28.411 [error] [127.0.0.1][062d319f] Unauthorized client refused: auth mismatch.
+2026-01-17 19:35:28.812 [error] [127.0.0.1][f3b4a832] Unauthorized client refused: auth mismatch.
+2026-01-17 19:35:30.671 [error] [127.0.0.1][4b18a4d9] Unauthorized client refused: auth mismatch.

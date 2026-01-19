@@ -1,0 +1,104 @@
+0 verbose cli /usr/local/nvm/versions/node/v24.12.0/bin/node /usr/local/nvm/versions/node/v24.12.0/bin/npm
+1 info using npm@11.7.0
+2 info using node@v24.12.0
+3 silly config load:file:/usr/local/nvm/versions/node/v24.12.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/kabeerahmead6/mixcom-coin/.npmrc
+5 silly config load:file:/home/kabeerahmead6/.npmrc
+6 silly config load:file:/usr/local/nvm/versions/node/v24.12.0/etc/npmrc
+7 verbose title npm install express cors
+8 verbose argv "install" "express" "cors"
+9 verbose logfile logs-max:10 dir:/home/kabeerahmead6/.npm/_logs/2026-01-18T10_16_52_716Z-
+10 verbose logfile /home/kabeerahmead6/.npm/_logs/2026-01-18T10_16_52_716Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+14 silly idealTree buildDeps
+15 silly fetch manifest cors@^2.8.5
+16 silly packumentCache full:https://registry.npmjs.org/cors cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/cors 145ms (cache revalidated)
+18 silly packumentCache full:https://registry.npmjs.org/cors set size:73833 disposed:false
+19 silly fetch manifest express@^5.2.1
+20 silly packumentCache full:https://registry.npmjs.org/express cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/express 41ms (cache revalidated)
+22 silly packumentCache full:https://registry.npmjs.org/express set size:801203 disposed:false
+23 silly placeDep ROOT cors@2.8.5 REPLACE for: mixcom-coin@1.0.0 want: ^2.8.5
+24 silly placeDep ROOT express@5.2.1 REPLACE for: mixcom-coin@1.0.0 want: ^5.2.1
+25 silly reify moves {}
+26 silly audit bulk request {
+26 silly audit   accepts: [ '2.0.0' ],
+26 silly audit   'body-parser': [ '2.2.2' ],
+26 silly audit   bytes: [ '3.1.2' ],
+26 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+26 silly audit   'call-bound': [ '1.0.4' ],
+26 silly audit   'content-disposition': [ '1.0.1' ],
+26 silly audit   'content-type': [ '1.0.5' ],
+26 silly audit   cookie: [ '0.7.2' ],
+26 silly audit   'cookie-signature': [ '1.2.2' ],
+26 silly audit   'crypto-js': [ '4.2.0' ],
+26 silly audit   debug: [ '4.4.3' ],
+26 silly audit   depd: [ '2.0.0' ],
+26 silly audit   'dunder-proto': [ '1.0.1' ],
+26 silly audit   'ee-first': [ '1.1.1' ],
+26 silly audit   encodeurl: [ '2.0.0' ],
+26 silly audit   'es-define-property': [ '1.0.1' ],
+26 silly audit   'es-errors': [ '1.3.0' ],
+26 silly audit   'es-object-atoms': [ '1.1.1' ],
+26 silly audit   'escape-html': [ '1.0.3' ],
+26 silly audit   etag: [ '1.8.1' ],
+26 silly audit   finalhandler: [ '2.1.1' ],
+26 silly audit   forwarded: [ '0.2.0' ],
+26 silly audit   fresh: [ '2.0.0' ],
+26 silly audit   'function-bind': [ '1.1.2' ],
+26 silly audit   'get-intrinsic': [ '1.3.0' ],
+26 silly audit   'get-proto': [ '1.0.1' ],
+26 silly audit   gopd: [ '1.2.0' ],
+26 silly audit   'has-symbols': [ '1.1.0' ],
+26 silly audit   hasown: [ '2.0.2' ],
+26 silly audit   'http-errors': [ '2.0.1' ],
+26 silly audit   'iconv-lite': [ '0.7.2' ],
+26 silly audit   inherits: [ '2.0.4' ],
+26 silly audit   'ipaddr.js': [ '1.9.1' ],
+26 silly audit   'is-promise': [ '4.0.0' ],
+26 silly audit   'math-intrinsics': [ '1.1.0' ],
+26 silly audit   'media-typer': [ '1.1.0' ],
+26 silly audit   'merge-descriptors': [ '2.0.0' ],
+26 silly audit   'mime-db': [ '1.54.0' ],
+26 silly audit   'mime-types': [ '3.0.2' ],
+26 silly audit   ms: [ '2.1.3' ],
+26 silly audit   negotiator: [ '1.0.0' ],
+26 silly audit   'object-assign': [ '4.1.1' ],
+26 silly audit   'object-inspect': [ '1.13.4' ],
+26 silly audit   'on-finished': [ '2.4.1' ],
+26 silly audit   once: [ '1.4.0' ],
+26 silly audit   parseurl: [ '1.3.3' ],
+26 silly audit   'path-to-regexp': [ '8.3.0' ],
+26 silly audit   'proxy-addr': [ '2.0.7' ],
+26 silly audit   qs: [ '6.14.1' ],
+26 silly audit   'range-parser': [ '1.2.1' ],
+26 silly audit   'raw-body': [ '3.0.2' ],
+26 silly audit   router: [ '2.2.0' ],
+26 silly audit   'safer-buffer': [ '2.1.2' ],
+26 silly audit   send: [ '1.2.1' ],
+26 silly audit   'serve-static': [ '2.2.1' ],
+26 silly audit   setprototypeof: [ '1.2.0' ],
+26 silly audit   'side-channel': [ '1.1.0' ],
+26 silly audit   'side-channel-list': [ '1.0.0' ],
+26 silly audit   'side-channel-map': [ '1.0.1' ],
+26 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+26 silly audit   statuses: [ '2.0.2' ],
+26 silly audit   toidentifier: [ '1.0.1' ],
+26 silly audit   'type-is': [ '2.0.1' ],
+26 silly audit   unpipe: [ '1.0.0' ],
+26 silly audit   vary: [ '1.1.2' ],
+26 silly audit   wrappy: [ '1.0.2' ],
+26 silly audit   cors: [ '2.8.5' ],
+26 silly audit   express: [ '5.2.1' ]
+26 silly audit }
+27 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 212ms
+28 silly audit report {}
+29 verbose cwd /home/kabeerahmead6/mixcom-coin
+30 verbose os Linux 6.6.111+
+31 verbose node v24.12.0
+32 verbose npm  v11.7.0
+33 verbose exit 0
+34 info ok
